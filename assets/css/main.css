@@ -257,6 +257,7 @@ h6 {
   }
 
   .navmenu {
+    max-height: 367px;
     padding: 0;
     z-index: 9997;
   }
@@ -829,9 +830,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# psicoterapia Section
 --------------------------------------------------------------*/
-.services .service-item {
+.psicoterapia .service-item {
   box-shadow: 0px 0 30px 0 color-mix(in srgb, var(--default-color), transparent 90%);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
@@ -840,7 +841,7 @@ section,
   z-index: 1;
 }
 
-.services .service-item:before {
+.psicoterapia .service-item:before {
   content: "";
   position: absolute;
   background: color-mix(in srgb, var(--accent-color), transparent 96%);
@@ -853,7 +854,7 @@ section,
   z-index: -1;
 }
 
-.services .service-item:after {
+.psicoterapia .service-item:after {
   content: "";
   position: absolute;
   background: color-mix(in srgb, var(--accent-color), transparent 97%);
@@ -866,7 +867,7 @@ section,
   z-index: -1;
 }
 
-.services .service-item i {
+.psicoterapia .service-item i {
   background: var(--accent-color);
   color: var(--contrast-color);
   font-size: 24px;
@@ -879,25 +880,25 @@ section,
   border-radius: 50%;
 }
 
-.services .service-item h4 {
+.psicoterapia .service-item h4 {
   font-weight: 600;
   margin: 15px 0 0 0;
   transition: 0.3s;
   font-size: 20px;
 }
 
-.services .service-item h4 a {
+.psicoterapia .service-item h4 a {
   color: var(--heading-color);
 }
 
-.services .service-item p {
+.psicoterapia .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin: 10px 0 0 0;
 }
 
-.services .service-item:hover:before,
-.services .service-item:hover:after {
+.psicoterapia .service-item:hover:before,
+.psicoterapia .service-item:hover:after {
   background: var(--accent-color);
   right: 0;
   top: 0;
@@ -906,29 +907,29 @@ section,
   border-radius: 0px;
 }
 
-.services .service-item:hover h4 a,
-.services .service-item:hover p {
+.psicoterapia .service-item:hover h4 a,
+.psicoterapia .service-item:hover p {
   color: var(--contrast-color);
 }
 
-.services .service-item:hover i {
+.psicoterapia .service-item:hover i {
   background: var(--contrast-color);
   color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
-# Alt Services Section
+# Alt psicoterapia Section
 --------------------------------------------------------------*/
-.alt-services .img {
+.alt-psicoterapia .img {
   border-radius: 8px;
   overflow: hidden;
 }
 
-.alt-services .img img {
+.alt-psicoterapia .img img {
   transition: 0.6s;
 }
 
-.alt-services .details {
+.alt-psicoterapia .details {
   position: absolute;
   left: 20px;
   right: 20px;
@@ -941,25 +942,25 @@ section,
   box-shadow: 0px 0 25px color-mix(in srgb, var(--default-color), transparent 92%);
 }
 
-.alt-services .details h3 {
+.alt-psicoterapia .details h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
   transition: ease-in-out 0.3s;
 }
 
-.alt-services .details p {
+.alt-psicoterapia .details p {
   color: color-mix(in srgb, var(--default-color), transparent 10%);
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.alt-services .service-item:hover .details h3 {
+.alt-psicoterapia .service-item:hover .details h3 {
   color: var(--accent-color);
 }
 
-.alt-services .service-item:hover .img img {
+.alt-psicoterapia .service-item:hover .img img {
   transform: scale(1.2);
 }
 
@@ -1127,16 +1128,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# posts Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.posts .posts-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.posts .posts-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -1148,36 +1149,36 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.posts .posts-filters li:hover,
+.posts .posts-filters li.filter-active {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.posts .posts-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.posts .posts-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .posts .posts-filters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.portfolio .portfolio-content {
+.posts .posts-content {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio .portfolio-content img {
+.posts .posts-content img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-content .portfolio-info {
+.posts .posts-content .posts-info {
   opacity: 0;
   position: absolute;
   inset: 0;
@@ -1187,7 +1188,7 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 {
+.posts .posts-content .posts-info h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -1196,7 +1197,7 @@ section,
   background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info p {
+.posts .posts-content .posts-info p {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -1208,8 +1209,8 @@ section,
   color: rgba(255, 255, 255, 0.8);
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link,
-.portfolio .portfolio-content .portfolio-info .details-link {
+.posts .posts-content .posts-info .preview-link,
+.posts .posts-content .posts-info .details-link {
   position: absolute;
   left: calc(50% - 40px);
   font-size: 26px;
@@ -1219,188 +1220,23 @@ section,
   line-height: 1.2;
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link:hover,
-.portfolio .portfolio-content .portfolio-info .details-link:hover {
+.posts .posts-content .posts-info .preview-link:hover,
+.posts .posts-content .posts-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info .details-link {
+.posts .posts-content .posts-info .details-link {
   left: 50%;
   font-size: 34px;
   line-height: 0;
 }
 
-.portfolio .portfolio-content:hover .portfolio-info {
+.posts .posts-content:hover .posts-info {
   opacity: 1;
 }
 
-.portfolio .portfolio-content:hover img {
+.posts .posts-content:hover img {
   transform: scale(1.1);
-}
-
-/*--------------------------------------------------------------
-# Team Section
---------------------------------------------------------------*/
-.team .team-member {
-  overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0px 2px 15px color-mix(in srgb, var(--default-color), transparent 90%);
-  height: 100%;
-}
-
-.team .team-member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team .team-member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.team .team-member .social a {
-  background: color-mix(in srgb, var(--background-color), transparent 25%);
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  transition: color 0.3s;
-  margin: 0 3px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  transition: ease-in-out 0.3s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.team .team-member .social a:hover {
-  color: var(--background-color);
-  background: var(--accent-color);
-}
-
-.team .team-member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.team .team-member .member-info {
-  padding: 25px 15px;
-}
-
-.team .team-member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-}
-
-.team .team-member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.team .team-member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
-
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
-.pricing .pricing-item {
-  box-shadow: 0 3px 20px -2px color-mix(in srgb, var(--default-color), transparent 90%);
-  border-top: 4px solid var(--background-color);
-  padding: 60px 40px;
-  height: 100%;
-  border-radius: 5px;
-}
-
-.pricing h3 {
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-size: 20px;
-}
-
-.pricing h4 {
-  color: var(--accent-color);
-  font-size: 48px;
-  font-weight: 400;
-  font-family: var(--heading-font);
-  margin-bottom: 0;
-}
-
-.pricing h4 sup {
-  font-size: 28px;
-}
-
-.pricing h4 span {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 18px;
-}
-
-.pricing ul {
-  padding: 20px 0;
-  list-style: none;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  text-align: left;
-  line-height: 20px;
-}
-
-.pricing ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.pricing ul i {
-  color: #059652;
-  font-size: 24px;
-  padding-right: 3px;
-}
-
-.pricing ul .na {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.pricing ul .na i {
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-}
-
-.pricing ul .na span {
-  text-decoration: line-through;
-}
-
-.pricing .buy-btn {
-  color: var(--accent-color);
-  background-color: var(--background-color);
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 50px;
-  transition: none;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: var(--heading-font);
-  transition: 0.3s;
-  border: 1px solid var(--accent-color);
-}
-
-.pricing .buy-btn:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.pricing .featured {
-  border-top-color: var(--accent-color);
-}
-
-.pricing .featured .buy-btn {
-  background: var(--accent-color);
-  color: var(--contrast-color);
 }
 
 @media (max-width: 992px) {
@@ -1615,34 +1451,34 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# posts Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.posts-details .posts-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.posts-details .posts-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.posts-details .posts-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.posts-details .posts-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info {
+.posts-details .posts-info {
   padding: 30px;
   box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.portfolio-details .portfolio-info h3 {
+.posts-details .posts-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1650,27 +1486,27 @@ section,
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.portfolio-details .portfolio-info ul {
+.posts-details .posts-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.posts-details .posts-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.posts-details .posts-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.posts-details .posts-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.posts-details .posts-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
@@ -1678,13 +1514,13 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.service-details .psicoterapia-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.service-details .psicoterapia-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1694,17 +1530,17 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.service-details .psicoterapia-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .psicoterapia-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .services-img {
+.service-details .psicoterapia-img {
   margin-bottom: 20px;
 }
 
