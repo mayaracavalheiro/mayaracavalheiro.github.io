@@ -248,6 +248,14 @@ h6 {
     transition: color 0.3s;
   }
 
+  #hero {
+    background-size: inherit;
+  }
+
+  #bannerHome {
+    height: 399px;
+  }
+
   .navmenu {
     padding: 0;
     z-index: 9997;
@@ -639,6 +647,23 @@ section,
     line-height: 36px;
   }
 
+  #hero {
+    background: url(../img/hero-bg.png) right bottom no-repeat;
+    padding: 54px 0 120px 0;
+  }
+
+  #aboutSection {
+    margin-bottom: 50px;
+  }
+
+  #bannerHome {
+    height: 399px!important;
+  }
+
+  #aboutContent{
+    margin-top: 30px;
+  }
+
   .hero p {
     font-size: 18px;
     line-height: 24px;
@@ -719,6 +744,21 @@ section,
   display: inline-flex;
   align-items: center;
   border: 2px solid var(--accent-color);
+}
+
+.about .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+}
+
+.about .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .about .content .about-btn i {
