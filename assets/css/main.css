@@ -90,8 +90,8 @@ h6 {
   color: var(--heading-color);
 }
 
-.header .btn-getstarted,
-.header .btn-getstarted:focus {
+.btn-getstarted,
+.btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
@@ -101,8 +101,8 @@ h6 {
   transition: 0.3s;
 }
 
-.header .btn-getstarted:hover,
-.header .btn-getstarted:focus:hover {
+.btn-getstarted:hover,
+.btn-getstarted:focus:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
@@ -594,7 +594,7 @@ section,
 #home {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.png") center bottom no-repeat;
+  background: url("../img/hero-bg.webp") center bottom no-repeat;
   background-size: cover;
   padding: 45px 0 138px 0;
 }
@@ -649,7 +649,7 @@ section,
   }
 
   #home {
-    background: url(../img/hero-bg.png) right bottom no-repeat;
+    background: url(../img/hero-bg.webp) right bottom no-repeat;
     padding: 54px 0 120px 0;
   }
 
@@ -1304,7 +1304,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background-image: url("../img/contact-bg.png");
+  background-image: url("../img/contact-bg.webp");
   background-position: left center;
   background-repeat: no-repeat;
   position: relative;
