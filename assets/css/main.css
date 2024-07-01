@@ -14,7 +14,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #596A7D; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #596a7d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
@@ -582,18 +582,25 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+#hero {
+  width: 100%;
+  position: relative;
+  background: url("../img/hero-bg.png") center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+}
+/* .hero {
   width: 100%;
   min-height: 70vh;
   position: relative;
   padding: 80px 0 60px 0;
   display: flex;
   align-items: center;
-}
+} */
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 56px;
 }
