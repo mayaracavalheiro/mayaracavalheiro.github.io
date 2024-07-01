@@ -248,7 +248,7 @@ h6 {
     transition: color 0.3s;
   }
 
-  #hero {
+  #home {
     background-size: inherit;
   }
 
@@ -589,16 +589,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   position: relative;
   background: url("../img/hero-bg.png") center bottom no-repeat;
   background-size: cover;
   padding: 45px 0 138px 0;
 }
-/* .hero {
+/* .home {
   width: 100%;
   min-height: 70vh;
   position: relative;
@@ -607,21 +607,21 @@ section,
   align-items: center;
 } */
 
-.hero h1 {
+.home h1 {
   margin: 0;
   font-size: 46px;
   font-weight: 700;
   line-height: 56px;
 }
 
-.hero p {
+.home p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 5px 0 20px 0;
   font-size: 22px;
   font-weight: 400;
 }
 
-.hero .btn-get-started {
+.home .btn-get-started {
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 15px;
@@ -633,22 +633,22 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-.hero .btn-get-started:hover {
+.home .btn-get-started:hover {
   color: var(--contrast-color);
   background: var(--accent-color);
 }
 
-.hero .animated {
+.home .animated {
   /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }
 
 @media (max-width: 640px) {
-  .hero h1 {
+  .home h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero {
+  #home {
     background: url(../img/hero-bg.png) right bottom no-repeat;
     padding: 54px 0 120px 0;
   }
@@ -665,14 +665,14 @@ section,
     margin-top: 30px;
   }
 
-  .hero p {
+  .home p {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .home .btn-get-started,
+  .home .btn-watch-video {
     font-size: 13px;
   }
 }
