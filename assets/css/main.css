@@ -609,9 +609,23 @@ section,
 
 .home h1 {
   margin: 0;
-  font-size: 46px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 56px;
+}
+
+.home h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 430;
+  line-height: 50px;
+}
+
+.home h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 31px;
 }
 
 .home p {
