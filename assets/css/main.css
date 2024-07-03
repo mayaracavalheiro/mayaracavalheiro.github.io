@@ -89,6 +89,16 @@ h6 {
   font-weight: 700;
   color: var(--heading-color);
 }
+.btn-getstarted.menu,
+.btn-getstarted:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 25px;
+  margin: 0 0 0 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
 
 .btn-getstarted,
 .btn-getstarted:focus {
