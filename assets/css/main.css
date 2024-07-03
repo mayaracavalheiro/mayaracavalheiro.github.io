@@ -249,7 +249,7 @@ h6 {
   }
 
   #home {
-    background-color: #f2ede500!important;
+    background: #f2ede5!important;
   }
 
   #bannerHome {
@@ -669,7 +669,7 @@ section,
   }
 
   #home {
-    background-color: #f2ede500!important;
+    background: #f2ede5!important;
     /* background: url(../img/hero-bg.webp) right bottom no-repeat; */
     /* padding: 54px 0 120px 0; */
   }
@@ -1115,7 +1115,7 @@ section,
   }
 
   #home {
-    background-color: #f2ede500!important;
+    background: #f2ede5!important;
   }
 }
 
