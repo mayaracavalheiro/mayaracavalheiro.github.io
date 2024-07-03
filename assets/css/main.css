@@ -658,8 +658,14 @@ section,
 
 @media (max-width: 640px) {
   .home h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 26px;
+    line-height: 42px;
+  }
+
+  .home h2 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
   }
 
   #home {
