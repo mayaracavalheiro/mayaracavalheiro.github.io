@@ -1563,9 +1563,9 @@ section,
 #bannerHome{
   background-color: #ddd;
   border-radius: 50%;
-  height: 600px;
+  height: 500px;
   object-fit: cover;
-  width: 600px;
+  width: 500px;
 }
 
 /*--------------------------------------------------------------
