@@ -604,7 +604,8 @@ section,
 #home {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.webp") center bottom no-repeat;
+  background: #f2ede5!important;
+  /* background: url("../img/hero-bg.webp") center bottom no-repeat; */
   background-size: cover;
   padding: 45px 0 138px 0;
 }
