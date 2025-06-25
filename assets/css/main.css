@@ -1207,7 +1207,9 @@ section,
 }
 
 .journal-block .journal-info img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 416px;
+  max-height: 277px;
 }
 
 .journal-block .journal-info .journal-txt {
