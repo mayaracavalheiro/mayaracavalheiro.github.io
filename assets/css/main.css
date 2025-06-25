@@ -588,11 +588,28 @@ section,
   display: inline-block;
 }
 
+#service-details h1:before,
+#service-details h1:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--accent-color);
+  display: inline-block;
+}
+
 .section-title h2:before {
   margin: 0 15px 10px 0;
 }
 
 .section-title h2:after {
+  margin: 0 0 10px 15px;
+}
+
+#service-details h1:before {
+  margin: 0 15px 10px 0;
+}
+
+#service-details h1:after {
   margin: 0 0 10px 15px;
 }
 
@@ -1206,10 +1223,11 @@ section,
   font-weight: 500;
   color: #292929;
   transition: all 0.5s ease-in-out 0s;
+  text-align: center;
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #596a7d;
   transition: all 0.5s ease-in-out 0s;
 }
 
