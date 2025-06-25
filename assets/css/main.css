@@ -590,7 +590,7 @@ section,
 
 #terapia-title h2:before,
 #terapia-title h2:after {
-  width: 18px;
+  width: 0px;
 }
 
 #service-details h1:before,
