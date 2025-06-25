@@ -588,6 +588,11 @@ section,
   display: inline-block;
 }
 
+#terapia-title h2:before,
+#terapia-title h2:after {
+  width: 18px;
+}
+
 #service-details h1:before,
 #service-details h1:after {
   content: "";
@@ -711,6 +716,9 @@ section,
   .home .btn-get-started,
   .home .btn-watch-video {
     font-size: 13px;
+  }
+  #img-terapia{
+    display: none;
   }
 }
 
@@ -1077,8 +1085,20 @@ section,
 }
 
 @media (max-width: 768px) {
+
+  .hero img {
+    object-position: 63% center; 
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+
   .hero h2 {
     font-size: 32px;
+  }
+
+  .hero h3 {
+    font-size: 21px;
   }
 
   .hero p {
