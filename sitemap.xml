@@ -2,37 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Página inicial -->
   <url>
     <loc>https://mayaracavalheiro.com.br/</loc>
     <lastmod>2025-06-08</lastmod>
   </url>
 
-  <!-- Página índice do blog -->
   <url>
     <loc>https://mayaracavalheiro.com.br/blog.html</loc>
     <lastmod>2025-06-20</lastmod>
   </url>
-
-  <!-- Post 1 -->
+  
   <url>
-    <loc>https://mayaracavalheiro.com.br/blog/ansiedade-hormonios.html</loc>
+    <loc>https://mayaracavalheiro.com.br/ansiedade.html</loc>
     <lastmod>2025-06-20</lastmod>
     <image:image>
-      <image:loc>https://mayaracavalheiro.com.br/img/ansiedade-hormonios.jpg</image:loc>
-      <image:caption>Correlação entre hormônios e ansiedade</image:caption>
+      <image:loc>https://mayaracavalheiro.com.br/assets/img/post/ansiedade.jpeg</image:loc>
+      <image:caption>Ansiedade</image:caption>
     </image:image>
   </url>
 
-  <!-- Post 2 -->
   <url>
-    <loc>https://mayaracavalheiro.com.br/blog/sono-melhor.html</loc>
-    <lastmod>2025-06-14</lastmod>
+    <loc>https://mayaracavalheiro.com.br/comparacao-e-padroes.html</loc>
+    <lastmod>2025-06-20</lastmod>
+    <image:image>
+      <image:loc>https://mayaracavalheiro.com.br/assets/img/post/comparacao.jpeg</image:loc>
+      <image:caption>Comparação e padrões</image:caption>
+    </image:image>
   </url>
 
-  <!-- Post 3 -->
+   <url>
+    <loc>https://mayaracavalheiro.com.br/dependencia-emocional.html</loc>
+    <lastmod>2025-06-20</lastmod>
+    <image:image>
+      <image:loc>https://mayaracavalheiro.com.br/assets/img/post/dependencia.jpeg</image:loc>
+      <image:caption>Dependência emocional</image:caption>
+    </image:image>
+  </url>
+
   <url>
-    <loc>https://mayaracavalheiro.com.br/blog/alimentacao-mente.html</loc>
+    <loc>https://mayaracavalheiro.com.br/ansiedade-nas-mulheres.html</loc>
     <lastmod>2025-06-01</lastmod>
   </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/nem-tudo-e-ansiedade-e-depressao.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/depressao-em-mulheres.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+   <url>
+    <loc>https://mayaracavalheiro.com.br/hormonios-e-bemestar.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/bornout.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/pressao-social-e-saude-mental-das-mulheres.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/redes-sociais-e-autoestima.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/autoestima-feminina.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/autonomia-e-autoestima.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/reconhecer-dependencia-emocional.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/o-que-mais-acaba-com-relacionamento.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mayaracavalheiro.com.br/desistir-do-parceiro.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
+   <url>
+    <loc>https://mayaracavalheiro.com.br/comunicacao-nos-relacionamentos.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
+
 </urlset>
