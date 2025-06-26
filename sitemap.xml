@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://mayaracavalheiro.com.br/</loc>
-        <lastmod>2024-07-02</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.1</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página inicial -->
+  <url>
+    <loc>https://mayaracavalheiro.com.br/</loc>
+    <lastmod>2025-06-08</lastmod>
+  </url>
+
+  <!-- Página índice do blog -->
+  <url>
+    <loc>https://mayaracavalheiro.com.br/blog.html</loc>
+    <lastmod>2025-06-20</lastmod>
+  </url>
+
+  <!-- Post 1 -->
+  <url>
+    <loc>https://mayaracavalheiro.com.br/blog/ansiedade-hormonios.html</loc>
+    <lastmod>2025-06-20</lastmod>
+    <image:image>
+      <image:loc>https://mayaracavalheiro.com.br/img/ansiedade-hormonios.jpg</image:loc>
+      <image:caption>Correlação entre hormônios e ansiedade</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Post 2 -->
+  <url>
+    <loc>https://mayaracavalheiro.com.br/blog/sono-melhor.html</loc>
+    <lastmod>2025-06-14</lastmod>
+  </url>
+
+  <!-- Post 3 -->
+  <url>
+    <loc>https://mayaracavalheiro.com.br/blog/alimentacao-mente.html</loc>
+    <lastmod>2025-06-01</lastmod>
+  </url>
 </urlset>
