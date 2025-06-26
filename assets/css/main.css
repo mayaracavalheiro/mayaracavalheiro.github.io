@@ -1,31 +1,40 @@
-
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #596A7D; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #596a7d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #444444;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #596A7D;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #596a7d;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --contrast-color: #ffffff;
+  /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #444444;  /* The default color of the main navmenu links */
-  --nav-hover-color: #596a7d; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #596a7d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #444444;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #596a7d;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #444444;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #596a7d;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Smooth scroll */
@@ -89,6 +98,7 @@ h6 {
   font-weight: 700;
   color: var(--heading-color);
 }
+
 .btn-getstarted.menu,
 .btn-getstarted:focus {
   color: var(--contrast-color);
@@ -261,7 +271,7 @@ h6 {
   }
 
   #home {
-    --background-color:color-mix(in srgb, var(--accent-color), transparent 95%);
+    --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   }
 
   #bannerHome {
@@ -588,11 +598,6 @@ section,
   display: inline-block;
 }
 
-#terapia-title h2:before,
-#terapia-title h2:after {
-  width: 0px;
-}
-
 #service-details h1:before,
 #service-details h1:after {
   content: "";
@@ -622,12 +627,23 @@ section,
   margin-bottom: 0;
 }
 
+@media (max-width: 990px) {
+  #terapia-title h2:before,
+  #terapia-title h2:after {
+    width: 0px;
+  }
+  #service-details h1:before,
+  #service-details h1:after {
+    width: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # home Section
 --------------------------------------------------------------*/
 #home {
   width: 100%;
-  --background-color:color-mix(in srgb, var(--accent-color), transparent 95%);
+  --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
 }
 
 .home h1 {
@@ -690,7 +706,7 @@ section,
   }
 
   #home {
-    --background-color:color-mix(in srgb, var(--accent-color), transparent 95%);
+    --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
     /* background: url(../img/hero-bg.webp) right bottom no-repeat; */
     /* padding: 54px 0 120px 0; */
   }
@@ -700,10 +716,10 @@ section,
   }
 
   #bannerHome {
-    height: 399px!important;
+    height: 399px !important;
   }
 
-  #aboutContent{
+  #aboutContent {
     margin-top: 30px;
   }
 
@@ -717,7 +733,8 @@ section,
   .home .btn-watch-video {
     font-size: 13px;
   }
-  #img-terapia{
+
+  #img-terapia {
     display: none;
   }
 }
@@ -738,6 +755,7 @@ section,
 .about {
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
 }
+
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
@@ -784,8 +802,10 @@ section,
 .about .content .about-btn:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
-  transform: scale(1.1); /* aumenta em 10% */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* sombra para dar profundidade */
+  transform: scale(1.1);
+  /* aumenta em 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* sombra para dar profundidade */
 }
 
 .about .icon-box i {
@@ -1080,15 +1100,18 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  transform: scale(1.1); /* aumenta em 10% */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* sombra para dar profundidade */
+  transform: scale(1.1);
+  /* aumenta em 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* sombra para dar profundidade */
 }
 
 @media (max-width: 768px) {
 
   .hero img {
-    object-position: 63% center; 
+    object-position: 63% center;
   }
+
   .hero h1 {
     font-size: 38px;
   }
@@ -1638,7 +1661,7 @@ blockquote {
   }
 
   #home {
-    --background-color:color-mix(in srgb, var(--accent-color), transparent 95%);
+    --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   }
 }
 
@@ -2038,6 +2061,10 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.service-details h1 {
+  font-weight: 700;
+}
+
 .service-details h2 {
   font-size: 26px;
   font-weight: 700;
@@ -2075,7 +2102,7 @@ blockquote {
   color: var(--accent-color);
 }
 
-#bannerHome{
+#bannerHome {
   background-color: #ddd;
   border-radius: 50%;
   height: 500px;
